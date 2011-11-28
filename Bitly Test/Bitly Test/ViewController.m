@@ -68,6 +68,8 @@
 
 
 
+#pragma mark - UITextViewDelegate Methods
+
 - (void) textViewDidChange:(UITextView *)textView{
     
     // For now let's check on " "

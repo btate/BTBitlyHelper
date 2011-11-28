@@ -153,9 +153,8 @@ static NSString *BITLYAPIURL = @"http://api.bitly.com/v3/shorten?login=%@&apiKey
 #pragma mark - OADataFetcher Callbacks
 
 /**
- *  Accepts the short url request and sends the new and old url to the delegate.
+ *  Accepts the short url request data and sends the new and old url to the delegate.
  *
- *  @param  ticket  The request ticket.
  *  @param  data    The data from the request.
  */
 - (void) shortUrlRequestDidFinishWithData: (NSData *) data{
@@ -203,7 +202,6 @@ static NSString *BITLYAPIURL = @"http://api.bitly.com/v3/shorten?login=%@&apiKey
 /**
  *  Handles short url request error.
  *
- *  @param  ticket  The request ticket.
  *  @param  error   The request error.
  */
 - (void) shortUrlRequestDidFailWithError:(NSError *)error{
