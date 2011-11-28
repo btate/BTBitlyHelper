@@ -30,3 +30,5 @@ The sample project shows the basic use for this helper.  Any links entered into 
 </pre>
 
 </p>
+
+<p> This free to use however.</p>
